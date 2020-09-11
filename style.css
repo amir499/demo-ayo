@@ -1,0 +1,299 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	font-family:arial;
+	font-size:16px;
+}
+.container{
+	width:1200px;
+	height:680px;
+	background:url(img/Auyo.jpg) no-repeat center;
+	margin:auto;
+}
+.header-top{
+	width:1200px;
+	display:table;
+}
+.header-left{
+	float:left;
+	width: 272px;
+	margin-top:50px;
+	margin-left:50px;
+}
+.header-left img{width:100%;}
+.header-right{
+	float:right;
+	width:800px;
+	margin-top:50px;
+	margin-right:10px;
+}
+.header-right ul{
+	float:right;
+	list-style:none;
+}
+.header-right ul li {
+	display:inline-block;
+}
+.header-right li a{
+	text-decoration:none;
+	padding:15px;
+	font-size:20px;
+	text-transform:uppercase;
+}
+.header-right li a:hover{
+	background-color:black;
+	color:white;
+}
+#active{
+	background-color:black;
+	color:white;
+}
+.hedding-form{
+	 margin-top:50px;
+	 overflow:hidden;
+	 width:1200px;
+	 float:left;
+}
+.hedding{
+	width: 390px;
+	float:left;
+	margin-left: 57px;
+}
+.hedding h1{
+	font-size:60px;
+}
+.form{
+	width:300px;
+	height: 331px;
+	float:right;
+	margin-left:100px;
+	border: 2px solid #afa3a3;
+	margin-right:100px;
+	background-color: #e08282;
+	border-radius:5px;
+}
+#white{color:white;}
+.form input[type=text]{
+	padding:10px;
+	padding-right:80px;
+	margin-left:10px;
+	margin-top:10px;
+	background-color: #d6eae9;
+}
+.form h5{
+	margin-left:15px;
+	margin-top:10px;
+}
+#d{
+	margin-left:10px;
+	margin-top:10px;
+}
+.form input[type=submit]{
+	padding:10px;
+	padding-right: 212px;
+	margin-left:10px;
+	margin-top: 21px;
+	background-color: #e62412;
+	border-radius: 6px;
+	cursor:pointer;
+}
+.service-icon{
+	width:1200px;
+	height:350px;
+	margin:auto;
+}
+.service h2{
+	color:#000;
+	font-size: 39px;
+	margin-left: 80px;
+	margin-top:20px;
+}
+#s{
+	color:red;
+}
+.text-icon{
+	border:none;
+	width: 274px;
+	height:300px;
+	margin-top:20px;
+	display:inline-block;
+	overflow:hidden;
+	margin-right:10px;
+}
+.text-icon img{
+	margin-left: 68px;
+	margin-top:10px;
+}
+.text-icon p{
+	margin-left:20px;
+	text-align:center;
+}
+.paragraph_story{
+	width:1200px;
+	margin:auto;
+	height:50px;
+	background-color: #130e27;
+	overflow: hidden;
+	padding: 18px 0px;
+}
+.paragraph{
+	width:700px;
+	float:left;
+	padding: 10px;
+	padding-left: 90px;
+	color: white;
+}
+.story{
+	width:300px;
+	float:right;
+	padding: 4px 6px;
+}
+#our{
+	background-color: #c62314;
+	float: left;
+	padding: 14px;
+	color: white;
+}
+.pri{
+	width:1200px;
+	margin:auto;
+	height:500px;
+	background-color:gray;
+}
+.pricing h1{
+	text-align:center;
+	padding-top:35px;
+	font-size:60px;
+}
+.main{
+	
+}
+.free{
+	
+	width: 240px;
+	height:  305px;
+	text-align:center;
+	background-color: white;
+}
+.free h1{
+	font-size:30px;
+	color:red;
+	padding:10px;
+}
+#st{    padding: 12px;}
+.free p{
+	line-height:30px;
+}
+#button{
+	background-color:#130e27;
+	padding:13px 59px;
+	color:#fff;
+}
+#button2{
+	background-color:#c62314;
+	padding:13px 55px;
+	color:#fff;
+}
+.sign{
+	display:inline-block;
+	margin-right: 10px;
+
+}
+.main-div {
+	width: 1000px;
+    margin-left: 218px;
+    margin-top: 20px;
+}
+.main2{
+	width:1200px;
+	margin:auto;
+	height:352px;
+	background-color:white;
+	margin-top:30px;
+}
+.textbox {
+    width: 480px;
+    float: left;
+	margin-left: 80px;
+}
+.text {
+    width: 320px;
+    float: left;
+}
+.textbox h1 {
+    font-size: 50px;
+    margin-left: 39px;
+    margin-bottom: 30px;
+}
+#dj{
+	margin-top:10px;
+}
+.box img{
+    width: 100px;
+    margin: 5px;
+}
+.textbox2{
+	
+	margin-top: 20px;
+}
+.gallery{
+	width:500px;
+	float:right;
+	overflow:hidden;
+}
+.photo{
+	width:85px;
+	float:left;
+}
+.all-pic {
+    width: 300px;
+}
+.photo{
+	margin:7px;
+}
+.gallery h1{
+	color:#c62314;
+    font-size: 52px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+.gallery p{
+    margin-left: 43px;
+    font-weight: bold;
+}
+.link{
+	margin:20px;
+}
+.gallery p a{
+	text-decoration:none;
+	border-bottom:2px solid gray;
+}
+.footer-aria{
+	margin:auto;
+	width:1200px;
+	background-color:#130e27;
+	height:100px;
+}
+.footer-left{
+	width:550px;
+	float:left;
+	margin-left:72px;
+	margin-top:47px;
+}
+.footer-left p{
+	color:white;
+}
+#design{color:red;}
+.footer-right{
+	float:right;
+	width:550px;
+}
+.footer-right img{
+	float:right;
+    margin: 27px;
+    width: 190px;
+    margin-right:47px;
+}
